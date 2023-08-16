@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-r1pn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/jentesting/build-e2e-vrfm-tenant/test-app-lbbl/docker-devfile-sample-hello-world-r1pn@sha256:d909c9ec8712779b537f51bd84184b0d5e7d7478c3ceaa790f531153668eb498
+        name: container-image
+        resources: {}
+status: {}
