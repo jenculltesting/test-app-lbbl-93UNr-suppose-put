@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-hello-world-r1pn
     spec:
       containers:
-      - image: image
+      - image: quay.io/jentesting/build-e2e-vrfm-tenant/test-app-lbbl/docker-devfile-sample-hello-world-r1pn@sha256:d909c9ec8712779b537f51bd84184b0d5e7d7478c3ceaa790f531153668eb498
         imagePullPolicy: Always
         name: container-image
         ports:
